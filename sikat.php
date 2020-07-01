@@ -5,7 +5,7 @@ ulang:
 // function change(){
 echo color("red","                    HANGGAR VOCER\n");
 echo color("white","           Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
-echo color("white","                    Never Extinct         \n");
+echo color("white","                    G O J E K         \n");
 echo color("white","                  Format Kode 62*** \n");
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
@@ -93,7 +93,7 @@ echo color("white","                  Format Kode 62*** \n");
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2206"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("white"," Message: ".$message);
-        echo "\n".color("white"," VOCER COLI.");
+        echo "\n".color("white"," CLAIM D..");
         echo "\n".color("white"," Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
